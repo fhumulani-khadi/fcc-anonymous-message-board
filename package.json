@@ -1,0 +1,31 @@
+{
+	"name": "boilerplate-project-messageboard",
+	"version": "0.0.1",
+	"description": "Information Security project for freeCodeCamp",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js",
+		"test": "mocha --ui tdd tests/2_functional-tests.js --exit"
+	},
+	"dependencies": {
+		"body-parser": "^1.19.0",
+		"chai": "^4.2.0",
+		"chai-http": "^4.3.0",
+		"cors": "^2.8.5",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"helmet": "^3.23.3",
+		"mocha": "^8.2.1",
+		"uuid": "^9.0.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com"
+	},
+	"keywords": [
+		"node",
+		"express",
+		"freecodecamp"
+	],
+	"license": "MIT"
+}
